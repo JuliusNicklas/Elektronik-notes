@@ -22,4 +22,27 @@ Max range of convertible analog signal $DR = V_{a,max}[dBV] - V_{a,min}[dBV]$ [[
 - $V_{a,max}[dBV]$: Limited by nonlinearities
 - $V_{a,min}[dBV]$: Limited by quantisation error and thermal noise
 
+### Gain function & error
+**Gain function:**
+A linear function from analog measurement $V_a$ to digital level $D$.
+$D = G(V_a - V_{a0})$
+In an ideal binary quantiser $G = 1/\Delta$ and $V_{a0}$.
+
+**Gain error:**
+Wrong G
+(In binary quantiser: Wrong $\Delta = V_{LSB}$.)
+- Gain Expansion $G > G_{ideal}$: 
+	- Cannot capture higher analog levels
+	- Limited range
+- Gain Compression: $G < G_{ideal}$: 
+	- Wasted bits
+	- ???? larger Q ??????
+	- ???? lower snr ????
+
+**Offset error:**
+Wrong offset $V_{a0} = \Delta_0$
+Occurs when $\Delta_0 > V_{LSB}$
+Can usually be corrected for if measured.
+
+
 [[Elektronik data conversion]]
