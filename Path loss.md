@@ -1,3 +1,7 @@
+---
+tags:
+  - Module2
+---
 
 Power lost over distance in wave communication:
 

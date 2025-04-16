@@ -3,10 +3,10 @@ Contains one voltage source, resistor, and [[Capacitor]].
 For a first order RC-circuit we want to find time constant $\tau$, initial voltage $v_c(0) = 0$ and final voltage $v_c(\infty) = 1$.
 
 **Step response:**
-$v_c(t) = (1-e^{-1/\tau})u(t)$
+$v_c(t) = (1-e^{-1/\tau})u(t)$ (charge up)
 
 **Current step response:**
-$i_c(t) =\frac{1}{r}e^{-t/\tau}u(t)$
+$i_c(t) =\frac{1}{r}e^{-t/\tau}u(t)$ (charge up)
 
 ### Capacitor when $t \rightarrow 0^+$
 (Initial condition)

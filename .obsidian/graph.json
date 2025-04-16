@@ -11,13 +11,20 @@
       "query": "tag:#Lecture  ",
       "color": {
         "a": 1,
-        "rgb": 4547734
+        "rgb": 25343
+      }
+    },
+    {
+      "query": "tag:#Module2  ",
+      "color": {
+        "a": 1,
+        "rgb": 8781799
       }
     }
   ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
+  "textFadeMultiplier": 0.5,
   "nodeSizeMultiplier": 1.25242513020833,
   "lineSizeMultiplier": 1.96900227864583,
   "collapse-forces": true,
@@ -25,6 +32,6 @@
   "repelStrength": 8.8134765625,
   "linkStrength": 1,
   "linkDistance": 168,
-  "scale": 1.1867628281978697,
+  "scale": 1.238996830314063,
   "close": true
 }

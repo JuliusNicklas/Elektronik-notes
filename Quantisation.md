@@ -1,3 +1,8 @@
+---
+tags:
+  - Module2
+---
+
 Map analog to digital amplitude.
 
 Precision depends on resolution. 

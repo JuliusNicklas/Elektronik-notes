@@ -1,3 +1,8 @@
+---
+tags:
+  - Module2
+---
+
 ### Aliasing
 Some signals with different frequencies can be sampled exactly the same. Only happens if $f_s$ is lower than Nyquist rate. For the highest of the signal frequencies $f_{sig}$ 
 
