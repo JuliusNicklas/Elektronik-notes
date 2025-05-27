@@ -1,6 +1,8 @@
 ---
 tags:
   - Module2
+aliases:
+  - Quantisation error
 ---
 
 Map analog to digital amplitude.

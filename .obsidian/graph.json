@@ -20,6 +20,13 @@
         "a": 1,
         "rgb": 8781799
       }
+    },
+    {
+      "query": "tag:#Module3  ",
+      "color": {
+        "a": 1,
+        "rgb": 16741120
+      }
     }
   ],
   "collapse-display": false,
